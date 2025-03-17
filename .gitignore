@@ -1,0 +1,10 @@
+# Ignore CSV input files
+*.csv
+
+# Ignore generated reports
+*.json
+*.html
+
+# Ignore system files
+.DS_Store
+Thumbs.db
