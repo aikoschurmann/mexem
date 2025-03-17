@@ -68,6 +68,7 @@ class PortfolioAnalyzer:
             rows (list): CSV rows corresponding to the Trades section.
         """
         header = None
+        
         trades = []
         for row in rows:
             if len(row) < 3:
